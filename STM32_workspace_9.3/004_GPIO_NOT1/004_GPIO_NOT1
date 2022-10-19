@@ -1,0 +1,22 @@
+/*****GPIO - General Purpouse Input Outpu********/
+
+/*
+
+- Genel amacli giris cikis portlaridir
+- Kit uzerindeki mikrodenetleyicide (STM32F407VGT) 5 adet port, 82 adet GPIO Pin vardir.
+Port A, Port B, Port C, Port D, Port E
+- Her port icin 16 adet kontrol edilebilir 5V toleransli I\O pini bulunmaktadir
+Portlar dital I\O olabilecegi gibi alternatif fonksiyon ( PWM ,DAC gibi) kullanilabilir.
+
+Her GPIO icin 4 adet ayarlama registeri (32 bit ) vardir
+1) GPIOx_MODER
+2) GPIOx_OTYPEr
+3) GPIOx_OSPEEDR
+4) GPIOx_PUPDR
+
+2 adet 32 bit dijital IO registeri vardir
+1)GPIOx_IDR 
+2)GPIOx_ODR
+
+
+*/

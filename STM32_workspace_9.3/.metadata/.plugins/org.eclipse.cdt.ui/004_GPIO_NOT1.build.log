@@ -1,0 +1,5 @@
+09:59:28 **** Clean-only build of configuration Debug for project 004_GPIO_NOT1 ****
+rm -rf 004_GPIO_NOT1 
+
+09:59:28 Build Finished (took 104ms)
+

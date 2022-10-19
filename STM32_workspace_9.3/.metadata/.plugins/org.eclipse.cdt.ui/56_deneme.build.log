@@ -1,0 +1,151 @@
+10:30:23 **** Incremental Build of configuration Debug for project 56_deneme ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\system_stm32f4xx.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -DSTM32F4XX -DSTM32F40XX -DUSE_STDPERIPH_DRIVER -DUSE_STM32F4_DISCOVERY -DHSE_VALUE=8000000 -I../src -I../Libraries/CMSIS/Include -I../Libraries/Device/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../Utilities/STM32F4-Discovery -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\system_stm32f4xx.o 
+..\src\system_stm32f4xx.c:208:3: warning: "/*" within comment [-Wcomment]
+   /* FPU settings ------------------------------------------------------------*/
+    
+..\src\system_stm32f4xx.c:210:48: warning: "/*" within comment [-Wcomment]
+  SCB->CPACR |= ((3UL << 10*2)|(3UL << 11*2));  /* set CP10 and CP11 Full Access */
+                                                 
+In file included from ..\src\system_stm32f4xx.c:117:0:
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:31: error: expected identifier or '(' before 'RCC_TypeDef'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                               ^
+..\src\system_stm32f4xx.c:215:3: note: in expansion of macro 'RCC'
+   RCC->CR |= (uint32_t)0x00000001;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1147:31: error: expected ')' before '(' token
+ #define RCC_BASE              (AHB1PERIPH_BASE + 0x3800)
+                               ^
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:46: note: in expansion of macro 'RCC_BASE'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                                              ^~~~~~~~
+..\src\system_stm32f4xx.c:215:3: note: in expansion of macro 'RCC'
+   RCC->CR |= (uint32_t)0x00000001;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:31: error: expected identifier or '(' before 'RCC_TypeDef'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                               ^
+..\src\system_stm32f4xx.c:218:3: note: in expansion of macro 'RCC'
+   RCC->CFGR = 0x00000000;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1147:31: error: expected ')' before '(' token
+ #define RCC_BASE              (AHB1PERIPH_BASE + 0x3800)
+                               ^
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:46: note: in expansion of macro 'RCC_BASE'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                                              ^~~~~~~~
+..\src\system_stm32f4xx.c:218:3: note: in expansion of macro 'RCC'
+   RCC->CFGR = 0x00000000;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:31: error: expected identifier or '(' before 'RCC_TypeDef'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                               ^
+..\src\system_stm32f4xx.c:221:3: note: in expansion of macro 'RCC'
+   RCC->CR &= (uint32_t)0xFEF6FFFF;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1147:31: error: expected ')' before '(' token
+ #define RCC_BASE              (AHB1PERIPH_BASE + 0x3800)
+                               ^
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:46: note: in expansion of macro 'RCC_BASE'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                                              ^~~~~~~~
+..\src\system_stm32f4xx.c:221:3: note: in expansion of macro 'RCC'
+   RCC->CR &= (uint32_t)0xFEF6FFFF;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:31: error: expected identifier or '(' before 'RCC_TypeDef'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                               ^
+..\src\system_stm32f4xx.c:224:3: note: in expansion of macro 'RCC'
+   RCC->PLLCFGR = 0x24003010;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1147:31: error: expected ')' before '(' token
+ #define RCC_BASE              (AHB1PERIPH_BASE + 0x3800)
+                               ^
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:46: note: in expansion of macro 'RCC_BASE'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                                              ^~~~~~~~
+..\src\system_stm32f4xx.c:224:3: note: in expansion of macro 'RCC'
+   RCC->PLLCFGR = 0x24003010;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:31: error: expected identifier or '(' before 'RCC_TypeDef'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                               ^
+..\src\system_stm32f4xx.c:227:3: note: in expansion of macro 'RCC'
+   RCC->CR &= (uint32_t)0xFFFBFFFF;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1147:31: error: expected ')' before '(' token
+ #define RCC_BASE              (AHB1PERIPH_BASE + 0x3800)
+                               ^
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:46: note: in expansion of macro 'RCC_BASE'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                                              ^~~~~~~~
+..\src\system_stm32f4xx.c:227:3: note: in expansion of macro 'RCC'
+   RCC->CR &= (uint32_t)0xFFFBFFFF;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:31: error: expected identifier or '(' before 'RCC_TypeDef'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                               ^
+..\src\system_stm32f4xx.c:230:3: note: in expansion of macro 'RCC'
+   RCC->CIR = 0x00000000;
+   ^~~
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1147:31: error: expected ')' before '(' token
+ #define RCC_BASE              (AHB1PERIPH_BASE + 0x3800)
+                               ^
+../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:1256:46: note: in expansion of macro 'RCC_BASE'
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                                              ^~~~~~~~
+..\src\system_stm32f4xx.c:230:3: note: in expansion of macro 'RCC'
+   RCC->CIR = 0x00000000;
+   ^~~
+..\src\system_stm32f4xx.c:238:3: warning: data definition has no type or storage class
+   SetSysClock();
+   ^~~~~~~~~~~
+..\src\system_stm32f4xx.c:238:3: warning: type defaults to 'int' in declaration of 'SetSysClock' [-Wimplicit-int]
+..\src\system_stm32f4xx.c:238:3: error: conflicting types for 'SetSysClock'
+..\src\system_stm32f4xx.c:184:13: note: previous declaration of 'SetSysClock' was here
+ static void SetSysClock(void);
+             ^~~~~~~~~~~
+In file included from ../Libraries/Device/STM32F4xx/Include/stm32f4xx.h:261:0,
+                 from ..\src\system_stm32f4xx.c:117:
+../Libraries/CMSIS/Include/core_cm4.h:1368:31: error: expected identifier or '(' before 'SCB_Type'
+ #define SCB                 ((SCB_Type       *)     SCB_BASE      )   /*!< SCB configuration struct           */
+                               ^
+..\src\system_stm32f4xx.c:244:3: note: in expansion of macro 'SCB'
+   SCB->VTOR = FLASH_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal FLASH */
+   ^~~
+../Libraries/CMSIS/Include/core_cm4.h:1365:29: error: expected ')' before '(' token
+ #define SCB_BASE            (SCS_BASE +  0x0D00UL)                    /*!< System Control Block Base Address  */
+                             ^
+../Libraries/CMSIS/Include/core_cm4.h:1368:53: note: in expansion of macro 'SCB_BASE'
+ #define SCB                 ((SCB_Type       *)     SCB_BASE      )   /*!< SCB configuration struct           */
+                                                     ^~~~~~~~
+..\src\system_stm32f4xx.c:244:3: note: in expansion of macro 'SCB'
+   SCB->VTOR = FLASH_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal FLASH */
+   ^~~
+..\src\system_stm32f4xx.c:246:1: error: expected identifier or '(' before '}' token
+ }*/
+ ^
+..\src\system_stm32f4xx.c:246:3: error: expected identifier or '(' before '/' token
+ }*/
+   ^
+..\src\system_stm32f4xx.c:340:13: error: conflicting types for 'SetSysClock'
+ static void SetSysClock(void)
+             ^~~~~~~~~~~
+..\src\system_stm32f4xx.c:238:3: note: previous declaration of 'SetSysClock' was here
+   SetSysClock();
+   ^~~~~~~~~~~
+..\src\system_stm32f4xx.c: In function 'SetSysClock':
+..\src\system_stm32f4xx.c:401:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+     while ((RCC->CFGR & (uint32_t)RCC_CFGR_SWS ) != RCC_CFGR_SWS_PLL);
+     ^~~~~
+..\src\system_stm32f4xx.c:402:5: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+     {
+     ^
+At top level:
+..\src\system_stm32f4xx.c:340:13: warning: 'SetSysClock' defined but not used [-Wunused-function]
+ static void SetSysClock(void)
+             ^~~~~~~~~~~
+
+10:30:23 Build Finished (took 232ms)
+

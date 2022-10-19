@@ -1,0 +1,27 @@
+16:43:56 **** Incremental Build of configuration Debug for project 059_sindeneme ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\main.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -DSTM32F4XX -DSTM32F40XX -DUSE_STDPERIPH_DRIVER -DUSE_STM32F4_DISCOVERY -DHSE_VALUE=8000000 -I../src -I../Libraries/CMSIS/Include -I../Libraries/Device/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../Utilities/STM32F4-Discovery -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\main.o 
+..\src\main.c: In function 'TIM3_IRQHandler':
+..\src\main.c:179:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(void)
+      ^~~~
+..\src\main.c:179:6: warning: 'main' is normally a non-static function [-Wmain]
+..\src\main.c:200:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+..\src\main.c:197:10: warning: 'EVAL_AUDIO_GetSampleCallBack' defined but not used [-Wunused-function]
+ uint16_t EVAL_AUDIO_GetSampleCallBack(void){
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\main.c:192:6: warning: 'EVAL_AUDIO_TransferComplete_CallBack' defined but not used [-Wunused-function]
+ void EVAL_AUDIO_TransferComplete_CallBack(uint32_t pBuffer, uint32_t Size){
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\main.c:179:6: warning: 'main' defined but not used [-Wunused-function]
+ void main(void)
+      ^~~~
+..\src\main.c:116:17: warning: 'count' defined but not used [-Wunused-variable]
+ static uint32_t count;
+                 ^~~~~
+
+16:43:56 Build Finished (took 193ms)
+

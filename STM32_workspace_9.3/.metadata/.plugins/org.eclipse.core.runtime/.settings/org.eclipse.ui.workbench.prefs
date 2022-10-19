@@ -1,0 +1,16 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
+ENABLED_DECORATORS=com.arm.cmsis.pack.project.decorators.RteProjectDecorator\:true,com.atollic.truestudio.integration.processorexpert.decorator\:true,org.eclipse.cdt.ui.indexedFiles\:false,org.eclipse.cdt.managedbuilder.ui.excludedFile\:true,org.eclipse.cdt.managedbuilder.ui.includeFolder\:true,org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator\:true,org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator\:true,org.eclipse.mylyn.context.ui.decorator.interest\:true,org.eclipse.mylyn.tasks.ui.decorators.task\:true,org.eclipse.mylyn.team.ui.changeset.decorator\:true,org.eclipse.team.cvs.ui.decorator\:false,org.eclipse.team.svn.ui.decorator.SVNLightweightDecorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,
+UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
+eclipse.preferences.version=1
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_TAB_INNER_KEYLINE_COLOR=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_TAB_OUTER_KEYLINE_COLOR=204,204,204
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COLOR=182,188,204
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END=206,221,237
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START=210,225,240
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_TAB_INNER_KEYLINE_COLOR=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_TAB_OUTER_KEYLINE_COLOR=255,255,255
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR=206,213,229
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END=244,246,252
+org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START=244,246,252

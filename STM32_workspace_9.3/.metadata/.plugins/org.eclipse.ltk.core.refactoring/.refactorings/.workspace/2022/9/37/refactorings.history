@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;56_denme&apos;" deleteContents="false" description="Delete resource &apos;56_denme&apos;" element1="/56_denme" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1662656600116"/>&#x0A;<refactoring comment="Delete resource &apos;057_STDP_PWM_GerilimAyar&apos;" deleteContents="true" description="Delete resource &apos;057_STDP_PWM_GerilimAyar&apos;" element1="/057_STDP_PWM_GerilimAyar" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1662709945138"/>
+</session>
