@@ -1,4 +1,4 @@
-# STM32F4-Discovery — SPL (StdPeriph) Çalışma Alanı
+# STM32F4-Discovery — SPL (StdPeriph) WorkSpace
 
 Bu depo, staj dönemimde **STM32F4-Discovery** kartı üzerinde **STM32 Standard Peripheral Library (SPL)** ile yaptığım örnekleri içerir.  
 Çalışma alanı; saat (RCC), GPIO, EXTI, ADC/DAC, TIMER, PWM, SysTick, USART ve çeşitli uygulama örneklerinden oluşan **adım adım ilerleyen** mini projelerden meydana gelir.
